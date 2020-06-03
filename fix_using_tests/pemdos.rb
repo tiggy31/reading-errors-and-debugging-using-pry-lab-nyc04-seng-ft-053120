@@ -1,8 +1,9 @@
 # don't forget to add: require 'pry'
 require "pry"
-def snake_it_up(string,num)
+def snake_it_up(string)
   if string[0] == "s"
-    num.to_s * "s" + string
+    binding_pry
+    10 * "s" + string
   else
     string
   end
