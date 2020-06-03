@@ -3,8 +3,7 @@ require "pry"
 def snake_it_up(string)
   if string[0] == "s"
     binding.pry
-   new= 10 * "s".to_i 
-   string= string + new
+    10 * "s".to_i + string
   else
     string
   end
