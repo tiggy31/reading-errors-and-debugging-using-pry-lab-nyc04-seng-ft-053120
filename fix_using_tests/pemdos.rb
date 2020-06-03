@@ -2,7 +2,7 @@
 require "pry"
 def snake_it_up(string,num)
   if string[0] == "s"
-    #binding.pry
+    binding.pry
     num.to_s * "s" + string
   else
     string
